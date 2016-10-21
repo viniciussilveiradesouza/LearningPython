@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>02fcf0f0-61d6-47b8-9e95-ad0554e7c37c</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>DisplayingTesxt.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>DisplayingText.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>DisplayingTesxt</Name>
+    <Name>DisplayingText</Name>
     <RootNamespace>DisplayingTesxt</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DisplayingTesxt.py" />
+    <Compile Include="DisplayingText.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
